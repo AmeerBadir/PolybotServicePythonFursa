@@ -97,6 +97,8 @@ class ImageProcessingBot(Bot):
             if "text" in msg and msg["text"].lower() == '/start':
                 self.send_text(chat_id, f"Hello {name}, Welcome to Ameer images bot.\n")
                 self.send_text(chat_id, options)
+            elif 'text' in msg and msg['text'].lower() == 'hi':
+                self.send_text(chat_id, "Hello, how can i help you?")
             elif 'text' in msg and msg['text'].lower() == 'done':
                 self.send_text(chat_id, "Good bye, we well be happy to see you again")
             else:
