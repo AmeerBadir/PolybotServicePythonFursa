@@ -100,7 +100,7 @@ class ImageProcessingBot(Bot):
             elif 'text' in msg and msg['text'].lower() == 'hi':
                 self.send_text(chat_id, "Hello, how can i help you?")
             elif 'text' in msg and msg['text'].lower() == 'thanks':
-                self.send_text(chat_id, "your welcome")
+                self.send_text(chat_id, "your welcomddde")
             elif 'text' in msg and msg['text'].lower() == 'done':
                 self.send_text(chat_id, "Good bye, we well be happy to see you again")
             else:
